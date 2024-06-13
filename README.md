@@ -8,7 +8,7 @@ https://www.saucedemo.com/
 Verify end to end flow of user logging in, purchasing a product and checking out.
 
 ## About Test Framework
-For the purpose of this demo, [WebdriverIO](https://webdriver.io/) test framework has been used with Typescript as language. The following directory sturcture is been followed:
+For the purpose of this demo, [WebdriverIO](https://webdriver.io/) test framework has been used with Typescript as language. The following directory structure is been followed:
  
     ./allure-results/
     ./test/
