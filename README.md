@@ -8,7 +8,7 @@ https://www.saucedemo.com/
 Verify end to end flow of user logging in, purchasing a product and checking out.
 
 ## About Test Framework
-For the purpose of this demo, WebdriverIO test framework has been used with Typescript as language. The following directory sturcture is been followed:
+For the purpose of this demo, [WebdriverIO](https://webdriver.io/) test framework has been used with Typescript as language. The following directory sturcture is been followed:
  
     ./allure-results/
     ./test/
@@ -31,13 +31,13 @@ For the purpose of this demo, WebdriverIO test framework has been used with Type
 * page.ts/ -  Will contain all common methods or locators which are required and constant across the application. Like logo, website URL, navigation bar, etc.
 * specs/ - Contains test suite and test cases.
 * allure-results/ - Contains reports generated for each test suite and test case.
-*wdio.conf.ts - Contains all configurations for WebdriverIO.
+* wdio.conf.ts - Contains all configurations for WebdriverIO.
 
 
 ## How to Setup and Run test
 ### Setup:
 ```
-Close the repository.
+Clone the repository.
 cd sauce_labs_ui_automation_wdio
 npm i
 
